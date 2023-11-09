@@ -2,12 +2,15 @@
   "name": "katas-01-javascript-basic",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test:basic": "node --test 01-variables.test.js",
-    "test": "node --test --watch --test-reporter spec"
+    "test": "node --test --watch ./03-functions.test.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "test": "^3.3.0"
+  }
 }
